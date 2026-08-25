@@ -22,7 +22,7 @@ import {
 } from "../types";
 
 const env = (import.meta as any).env || {};
-export const DEFAULT_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxAeHF8Dq1iKnXi8-7k3Yv04oFRlZS8hqKuM5jpt_5EzSrUKQnpE2pA3NiSd1tyQXIA/exec";
+export const DEFAULT_SCRIPT_URL = import.meta.env.VITE_SCRIPT_URL || "";
 
 export const firebaseConfig = {
   apiKey: firebaseAppletConfig.apiKey || env.VITE_FIREBASE_API_KEY,
