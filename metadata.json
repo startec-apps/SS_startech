@@ -1,0 +1,8 @@
+{
+  "name": "Spreadsheet Startech Hub",
+  "description": "Startech Hub operations, inventory, and staff management backed by Google Sheets and Google Workspace integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

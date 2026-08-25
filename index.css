@@ -1,0 +1,6 @@
+/* Startech Hub Base CSS */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+}
